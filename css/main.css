@@ -141,16 +141,18 @@ button.download a{
 }
 
 hr{
-	height: 1px;
-	width: 800px;
-	-webkit-box-shadow: 0px 10px 25px rgba(50, 50, 50, .75);
-	-moz-box-shadow:    0px 10px 25px rgba(50, 50, 50, .75);
-	box-shadow:         0px 10px 25px rgba(50, 50, 50, .75);
+	
+	width: 700px;
+	-webkit-box-shadow: 0px 10px 25px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 10px 25px rgba(50, 50, 50, 1);
+	box-shadow:         0px 10px 25px rgba(50, 50, 50, 1);
+	margin: 10px auto;
 }
 
 .middle-search-field {
-  margin: 40px auto;
+  margin: 50px auto 40px auto;
 width: 200px;
+text-align: center;
 /*padding: 15px 430px 15px 430px;*/
 /*border: 2px solid orange;*/
 }
@@ -164,6 +166,31 @@ background: #E9EAEE;
  /* line-height: 16px;*/
   padding: 5px 15px 5px 15px;
 width: 90px;
+}
+
+.map-section{
+	width: 715px;
+	margin: 25px auto;
+}
+
+.map-section img{
+	float:left;
+}
+
+.paragraph{
+	float:left;
+	width: 300px;
+	text-align: left;
+	
+}
+
+.paragraph p{
+	font-size: 10px;
+}
+
+footer{
+	text-align: center;
+	margin: 40px auto;
 }
 
 
